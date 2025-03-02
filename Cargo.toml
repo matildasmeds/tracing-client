@@ -1,0 +1,21 @@
+[package]
+name = "tracing_client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tracing = { path = "../tracing/tracing" }
+tracing-core = { path = "../tracing/tracing-core" }
+tracing-subscriber = { path = "../tracing/tracing-subscriber" }
+tracing-attributes = { path = "../tracing/tracing-attributes" }
+tracing-macros = { path = "../tracing/tracing-macros" }
+tracing-error = { path = "../tracing/tracing-error" }
+tracing-serde = { path = "../tracing/tracing-serde" }
+tracing-flame = { path = "../tracing/tracing-flame" }
+tracing-futures = { path = "../tracing/tracing-futures" }
+tracing-journald = { path = "../tracing/tracing-journald" }
+tracing-log = { path = "../tracing/tracing-log" }
+tracing-mock = { path = "../tracing/tracing-mock" }
+tracing-test = { path = "../tracing/tracing-test" }
+tracing-tower = { path = "../tracing/tracing-tower" }
+tracing-appender = { path = "../tracing/tracing-appender" }
